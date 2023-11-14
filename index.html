@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images" href="./images/letter-b.png">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <title>DevFolio</title>
 </head>
+
 <body>
-    
+
+
+    <!-- Nav_Bar -->
+    <nav
+    id="Nav_bar"
+     class="navbar navbar-expand-md navbar-light bg-dark container-fluid d-flex justify-content-around fixed-top opacity-50">
+        <a class="ps-2 navbar-brand fs-4 text-light ps-1" href="#">DevFolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="pe-1 collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <ul class=" navbar-nav mr-auto   d-none d-md-flex">
+                <li class="nav-item active ">
+                    <a class="nav-link text-light" style="font-size: 13px;" href="#">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light"  style="font-size: 13px;" href="#">ABOUT <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light"  style="font-size: 13px;"  href="#">SERVICES <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light"  style="font-size: 13px;" href="#">WORK<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light"  style="font-size: 13px;" href="#">BLOG<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light"  style="font-size: 13px;" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light"  style="font-size: 13px;" href="#">CONTACT <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Nav_Bar -->
+
+    <!-- Home -->
+        <div id="Home" class="home container-fluid vh-100 position-relative">
+            <div class="cov vh-100">
+                <h1 class=" position-absolute bottom-50 start-50 translate-middle-x" style="font-size: 55px;">I am Morgan Freeman</h1>
+                <div class="typing-demo position-absolute top-50 start-50 translate-middle-x"><h1>Web developer</h1></div>
+            </div>
+        </div>
+    <!-- Home -->
+
+
 </body>
+<script src="./JS/all.min.js"></script>
+<script src="./JS/bootstrap.bundle.min.js"></script>
+
 </html>
