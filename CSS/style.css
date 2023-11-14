@@ -22,6 +22,8 @@
     background-image: url(./../images/hero-bg.jpg);
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .home .cov {
@@ -31,7 +33,7 @@
 
 .typing-demo h1 {
     width: 22ch;
-    animation: typing 5s 0.5s steps(22)  infinite alternate;
+    animation: typing 6s 0.5s steps(22) infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -45,7 +47,7 @@
     }
 
     25% {
-        width: 22ch;
+        width: 15ch;
     }
 
     50% {
@@ -53,7 +55,7 @@
     }
 
     75% {
-        width: 22ch;
+        width: 15ch;
     }
 
     100% {
@@ -67,3 +69,16 @@
     }
   } */
 /* home */
+
+/* about */
+.about {
+    background-color: #f5f5f5;
+}
+
+.after {
+    background-color: #0078ff;
+    width: 13%;
+    height: 3px;
+}
+
+/* about */
