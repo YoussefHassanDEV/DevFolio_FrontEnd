@@ -106,6 +106,33 @@
     background-attachment: fixed;
 }
 .Work .cover{
+    background-color: rgba(13,202,240,0.50);
 
 }
 /* Work */
+.Blog .after{
+    width: 10%;
+    height: 3px;
+    background-color: #0078ff;
+}
+.Blog a{
+    text-decoration: none;
+    color: black;
+}
+.Contact{
+    background-image: url(./../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Contact .cont{
+    background-color: rgba(13,202,240,0.50);
+}
+.Contact .cont .box{
+    width: 80%;
+}
+.Contact .after {
+    background-color: #0078ff;
+    width: 13%;
+    height: 3px;
+}

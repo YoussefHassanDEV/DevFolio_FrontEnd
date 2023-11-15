@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="./CSS/all.min.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 
     <title>DevFolio</title>
 </head>
@@ -47,7 +51,7 @@
                             class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" style="font-size: 17px;" href="#">BLOG<span
+                    <a class="nav-link text-light" style="font-size: 17px;" href="#Blog">BLOG<span
                             class="sr-only">(current)</span></a>
                 </li>
 
@@ -64,7 +68,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" style="font-size: 17px;" href="#">CONTACT <span
+                    <a class="nav-link text-light" style="font-size: 17px;" href="#Contact">CONTACT <span
                             class="sr-only">(current)</span></a>
                 </li>
             </ul>
@@ -240,7 +244,7 @@
     </div>
 
     <div id="Work" class="Work h-100">
-        <div class="bg-info opacity-50">
+        <div class="cover">
             <br>
             <br>
             <br>
@@ -289,8 +293,134 @@
             <br>
             <br>
         </div>
-        <script src="./JS/all.min.js"></script>
-        <script src="./JS/bootstrap.bundle.min.js"></script>
+    </div>
+    <div id="Blog" class="Blog text-center">
+        <h2 class="fs-1 fw-bold mt-2">BLOG</h2>
+        <p class="pb-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="after mx-auto"></div>
+        <div class="w-75 mx-auto">
+            <div class=" row  ">
+                <div class="card col-md-4  d-flex flex-column">
+                    <img src="images/post-1.jpg" alt="">
+
+                    <a href="">
+                        <h4>See more ideas about Travel</h4>
+                    </a>
+                    <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.</p>
+                    <hr>
+                    <div class="d-flex flex-row">
+                        <img src="./images/testimonial-2.jpg" style="height: 30px; width: 30px;" class="m-0" alt="">
+                        <p class="ms-2">Morgan Freeman</p>
+                        <i class="fa-regular fa-clock mt-1" style="width: 50px;"></i>
+                        <p>10 min</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 = d-flex flex-column">
+                    <img src="images/post-2.jpg" alt="">
+
+                    <a href="">
+                        <h4>See more ideas about Travel</h4>
+                    </a>
+                    <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.</p>
+                    <hr>
+                    <div class="d-flex flex-row">
+                        <img src="./images/testimonial-2.jpg" style="height: 30px; width: 30px;" class="m-0" alt="">
+                        <p class="ms-2">Morgan Freeman</p>
+                        <i class="fa-regular fa-clock mt-1" style="width: 50px;"></i>
+                        <p>10 min</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 = d-flex flex-column">
+                    <img src="images/post-3.jpg" alt="">
+                    <a href="">
+                        <h4>See more ideas about Travel</h4>
+                    </a>
+                    <p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa,
+                        convallis a pellentesque nec, egestas non nisi.</p>
+                    <hr>
+                    <div class="d-flex flex-row">
+                        <img src="./images/testimonial-2.jpg" style="height: 30px; width: 30px;" class="m-0" alt="">
+                        <p class="ms-2">Morgan Freeman</p>
+                        <i class="fa-regular fa-clock mt-1" style="width: 50px;"></i>
+                        <p>10 min</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+            <br><br><br>
+        </div>
+
+
+
+    </div>
+    <div id="Contact" class="Contact">
+        <div class=" cont">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="box d-flex bg-light mx-auto">
+                <div class="w-50 d-flex flex-column" style="padding-left: 20px;">
+                    <h3>
+                        Send Message Us
+                    </h3>
+                    <div class="after mb-2"></div>
+                    <input type="text" name="name" class="mb-1 form-control" id="name" placeholder="Your Name"
+                        required="">
+                    <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Your Email"
+                        required="">
+                    <input type="text" class="form-control mb-2" name="subject" id="subject" placeholder="Subject"
+                        required="">
+                    <textarea class="form-control mb-2" name="message" rows="5" placeholder="Message"
+                        required=""></textarea>
+                    <button type="button" class="btn btn-primary w-25 mx-auto">Send Message</button>
+                </div>
+                <div class="w-50 d-flex flex-column" style="padding-left: 20px;">
+                    <h3>
+                        Get in Touch
+                    </h3>
+                    <div class="after mb-2"></div>
+                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem
+                        soluta quidem
+                        expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione
+                        nobis mollitia inventore?
+                    </p>
+                    <div class="d-flex">
+                        <span style="color: #0078ff;" class="me-2 mt-1 fa-solid fa-location-dot"></span>
+                        <p> 329 WASHINGTON ST BOSTON, MA 02108</p>
+                    </div>
+                    <div class="d-flex">
+                        <span style="color: #0078ff;" class="me-2 mt-1 fa-solid fa-mobile"></span>
+                        <p> (617) 557-0089</p>
+                    </div>
+                    <div class="d-flex">
+                        <span style="color: #0078ff;" class="me-2 mt-1 fa-solid fa-envelope"></span>
+                        <p> 329 WASHINGTON ST BOSTON, MA 02108</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-facebook mx-4"></i>
+                        <i class="fa-brands fa-instagram  mx-4"></i>
+                        <i class="fa-brands fa-twitter  mx-4"></i>
+                        <i class="fa-brands fa-linkedin  mx-4"></i>
+                    </div>
+                </div>
+
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+    <div id="Copyright" class="bg-info Copyright d-flex flex-column text-center">
+        <p>© Copyright DevFolio. All Rights Reserved</p>
+        <p class="m-0">Designed by BootstrapMade</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 
 
